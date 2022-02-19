@@ -1,13 +1,11 @@
 def egypte(a,b):
-    A = a
-    B = b
     c = 0
-    if(A>=B):
-        while A != 0:
-            if A % 2 == 1:
-                c = c+B
-            A = A//2
-            B = B*2
+    if(a>=b):
+        while a != 0:
+            if a % 2 == 1:
+                c = c+b
+            a = a//2
+            b += b
     else:
         print("a doit etre plus grand que b")
     return c
